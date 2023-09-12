@@ -69,6 +69,17 @@ h1, h2, p{
     color: red;
 }
 
+.aviso{
+    color: red;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.mensagem-alerta{
+    display: flex;
+    align-items: center;
+}
+
 @-webkit-keyframes backgroundAnimacao {
     0%{background-position:0% 44%}
     50%{background-position:100% 57%}
