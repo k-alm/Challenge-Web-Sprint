@@ -90,3 +90,42 @@ h1, h2, p{
     50%{background-position:100% 57%}
     100%{background-position:0% 44%}
 }
+
+
+@media screen and (max-width: 1060px) {
+    .campos{
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    body{
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    body{
+        font-size: 1.5rem;
+    }
+
+    main > img{
+        display: none;
+    }
+
+    h1, p{
+        font-size: 1.2rem;
+    }
+    .campos__buttons__layout{
+        width: 50%;
+        padding: 5% 0;
+        margin: 1rem 0;
+        font-size: 1.1rem;
+    }
+
+    .container{
+        width: 90%;
+        height: auto;
+    }
+}
