@@ -1,3 +1,5 @@
+import "./inputs.css"
+
 export default function Inputs(props){
     const placeHolderModificada = `${props.placeholder}...`
     
@@ -7,4 +9,4 @@ export default function Inputs(props){
                 <input type={props.type} id={props.id} placeholder={placeHolderModificada} className="campos__layout" autoComplete="off"/><br/>
             </div>
         );
-    }
+}
