@@ -31,3 +31,37 @@
     cursor: pointer;
     background-color: var(--cor-hover);
 }
+.campos__links{
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 0;
+    align-items: center;
+    width: 100%;
+}
+
+.mobile{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+}
+
+.container__paragraph{
+    margin: 1rem 0;
+    font-size: 1.2rem;
+}
+
+.consulta{
+    min-height: 15vh;
+    border: none;
+    border-radius: 0;
+    background-color: none;
+}
+
+.link-to-consulta{
+    width: 50%;
+    margin: 1rem 0;
+}
+
+.link-to{
+    padding: 3%;
+}
