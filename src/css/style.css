@@ -129,3 +129,10 @@ h1, h2, p{
         height: auto;
     }
 }
+
+@media screen and (min-width: 1365px) {
+    .campos{
+        display: flex;
+        flex-direction: column;
+    }
+}
