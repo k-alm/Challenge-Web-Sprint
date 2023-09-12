@@ -11,7 +11,7 @@ export default function Consulta(){
                 <div className="campos">
                     <Inputs class="campos__texto" placeholder="Digite o número de série" label="Número de série" type="text"/>
                 </div>
-                <button className="link-to-consulta campos__buttons__layout" to="/vistoria">Iniciar Vistoria</button>              
+                <Link to ="/vistoria" className="link-to-consulta campos__buttons__layout">Iniciar Vistoria</Link>              
                 <Link className="link-to-consulta campos__buttons__layout" to="/">Voltar</Link>
             </form>
         </main>
