@@ -44,3 +44,19 @@
     background-color: none;
     border: none;
 }
+.error-title{
+    color: #FFF;
+}
+
+.principal{
+    font-size: 5rem;
+}
+
+.secundario{
+    font-size: 2rem;
+    margin: 2rem 0;
+}
+
+.principal, .secundario{
+    font-family: 'Montserrat', sans-serif;
+}
