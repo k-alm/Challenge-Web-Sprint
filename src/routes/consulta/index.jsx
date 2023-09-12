@@ -1,5 +1,5 @@
-import Inputs from "../../components/Inputs/inputs";
 import { Link } from "react-router-dom";
+import Inputs from "../../components/Inputs";
 
 export default function Consulta(){
     return(
