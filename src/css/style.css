@@ -62,6 +62,13 @@ h1, h2, p{
     margin-bottom: 1rem;
 }
 
+.alert{
+    font-size: 2rem;
+    margin: 0 1rem 2rem 0;
+    vertical-align: middle;
+    color: red;
+}
+
 @-webkit-keyframes backgroundAnimacao {
     0%{background-position:0% 44%}
     50%{background-position:100% 57%}
