@@ -51,3 +51,13 @@ main{
     align-items: center;
     margin: 5%;
 }
+
+main > img{
+    max-width: 100%;
+    border: 3px solid var(--cor-porto-secundaria);
+    border-radius: 10px;
+}
+
+h1, h2, p{
+    margin-bottom: 1rem;
+}
