@@ -7,8 +7,8 @@ export default function Content(){
             <section className="container">
                 <h1 className="container__title">Vistoria Bike</h1>
                 <p>Sua bicicleta está registrada?</p>
-                <Link to="/csulta" className="campos__buttons__layout link-to">Consultar</Link>
-                <Link to="/ristro" className="campos__buttons__layout link-to">Registrar Bike</Link>
+                <Link to="/consulta" className="campos__buttons__layout link-to">Consultar</Link>
+                <Link to="/registro" className="campos__buttons__layout link-to">Registrar Bike</Link>
             </section>
         </main>
         
