@@ -17,3 +17,28 @@
 
     --fonte-principal: 'Open Sans', sans-serif;
 }
+
+#submit{
+    width: 40%;
+}
+
+#about__next{
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    background: var(--gradiente-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 1.5rem;
+    box-sizing: border-box;
+}
+
+/* BACKGROUND ANIMATION*/
+body {
+    background: linear-gradient(226deg, #01081c, #041b30, #0c87fa);
+    background-size: 600% 600%;
+
+    -webkit-animation: backgroundAnimacao 23s ease infinite;
+    animation: backgroundAnimacao 23s ease infinite;
+}
