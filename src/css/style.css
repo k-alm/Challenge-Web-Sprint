@@ -61,3 +61,14 @@ main > img{
 h1, h2, p{
     margin-bottom: 1rem;
 }
+
+@-webkit-keyframes backgroundAnimacao {
+    0%{background-position:0% 44%}
+    50%{background-position:100% 57%}
+    100%{background-position:0% 44%}
+}
+@keyframes backgroundAnimacao {
+    0%{background-position:0% 44%}
+    50%{background-position:100% 57%}
+    100%{background-position:0% 44%}
+}
