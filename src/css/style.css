@@ -42,3 +42,12 @@ body {
     -webkit-animation: backgroundAnimacao 23s ease infinite;
     animation: backgroundAnimacao 23s ease infinite;
 }
+
+main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+}
