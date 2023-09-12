@@ -1,0 +1,14 @@
+/* IMPORT FONTES */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+:root{
+    --cor-porto: #0c87fa;
+    --cor-porto-secundaria: rgb(0, 70, 192);
+    --cor-porto-terciaria: #00B2E3;
+    --cor-hover: rgb(1, 87, 236);
+    --cor-fundo: #01081C;
+    --cor-branco: #FFF;
+    --cor-preto: #000;
+
+    --fonte-principal: 'Open Sans', sans-serif;
+}
