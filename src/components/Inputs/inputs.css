@@ -1,0 +1,25 @@
+.campos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+.campos__espaco {
+    margin: 0.5rem auto;
+    min-width: 12.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.campos__upload{
+    background-color: var(--cor-porto-secundaria);
+    font-size: 1rem;
+    padding: 8%;
+    color: var(--cor-branco);
+    border: none;
+    border-radius: 5px;
+    transition: 0.2s;
+}
