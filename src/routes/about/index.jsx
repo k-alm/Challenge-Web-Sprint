@@ -8,6 +8,7 @@ export default function About(){
                 <p class="container__title">Nicholas Santos - RM: 551809</p><br/>
                 <p class="container__title">Murillo Scaff - RM: 551641</p><br/>
                 <p class="container__title">Beatriz Svestka Santos - RM: 551534</p>
+                <a class="campos__buttons__layout" target="blank" href="https://github.com/k-alm/Challenge-Web-Sprint.git">Repositório do github</a>
             </section>
         </main>
     );
