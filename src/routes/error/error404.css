@@ -74,7 +74,27 @@
         width: 100%;
         
     }
-    
+
     .campos__buttons__error{
         width: 70%;
     }
+    .image{
+        width: 50%;
+    }
+
+    .principal{
+        font-size: 3rem;
+    }
+
+    .secundario{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .error-title{
+        margin: 2rem 0;
+        font-size: 1.5rem;
+    }
+
+}
