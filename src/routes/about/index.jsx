@@ -1,7 +1,7 @@
 export default function About(){
     return(
         <main class="content">
-            
+            <img src="src/assets/img-porto-logo.png" alt="Porto Seguro's logo with background"/>
             <section class="container">
                 <h1 class="container__title">Sobre Nós:</h1><br/>
                 <p class="container__title">Kauan de Almeida - RM: 552075</p><br/>
